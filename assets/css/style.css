@@ -1,18 +1,31 @@
-/* Asterisk wildcard selector to override default styles added by the browser */
+/* Asterisk wildcard selector to override default styles added by the browser.
+This wildcard code is from Love Running Setting up basic CSS Styles */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* General styles. Except the color, body {} code it from Love Running */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #333333;
+}
+
 /* Header */
 header {
-background-color: #FFD700;
+    background-color: #FFD700;
 }
 
 /* Main */
 main {
-background-color: #30D5C8;
+    background-color: #30D5C8;
+/* Make main element take up any surplus space to push footer down. Comment and flex
+element exactly typed from Love Running */
+    flex: 1 0 auto;
 }
 
 /* Footer */
