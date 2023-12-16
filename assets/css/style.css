@@ -42,6 +42,22 @@ h1 {
     color: #333333;
 }
 
+/* #menu like in Love Running (for now) */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+/* #menu > li for now like in Love Running */
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 2px solid #333333;
+}
+
 /* Main */
 main {
     background-color: #30D5C8;
