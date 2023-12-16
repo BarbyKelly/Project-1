@@ -29,8 +29,17 @@ header {
     box-shadow: 0 2px 2px #333333;
 }
 
+/* Header a exactly like in Love Running (for now) */
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #333333;
 }
 
 /* Main */
