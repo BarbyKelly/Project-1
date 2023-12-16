@@ -16,12 +16,16 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #333333;
-    font-family: 'Open Sans', Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
 header {
     background-color: #FFD700;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Main */
