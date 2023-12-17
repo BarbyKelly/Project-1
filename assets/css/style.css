@@ -108,13 +108,18 @@ main {
 
 /* Main content */
 main {
-    background-color: #a576a7;
-/* Make main element take up any surplus space to push footer down. Comment and flex
+   /* Make main element take up any surplus space to push footer down. Comment and flex
 element exactly typed from Love Running */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
+/* Beach section */
+#beach {
+    height: 600px;
+    width: 100%;
+    background: url("../images/beach.jpg") no-repeat center center/cover;
+}
 /* Footer */
 footer {
     background-color: #e9e7f0;
