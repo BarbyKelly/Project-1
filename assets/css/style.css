@@ -19,6 +19,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #333333;
+}
+
 /* Header - except backgroung-color and box-shadow color, the rest of the header styling code exactly like in Love Running (for now) */
 header {
     background-color: #a39a69;
@@ -36,13 +43,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #333333;
 }
 
 /* #menu like in Love Running (for now) */
@@ -119,7 +119,25 @@ element exactly typed from Love Running */
     height: 600px;
     width: 100%;
     background: url("../images/beach.jpg") no-repeat center center/cover;
+    position: relative
 }
+
+/* Cover text - except background-color, rest is like in Love Running */
+#cover-text {
+    background-color: #e9e7f0;
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    }
+
+    #cover-text > h2, #cover-text > h3 {
+        color: #333333;
+    }
+
 /* Footer */
 footer {
     background-color: #e9e7f0;
@@ -160,5 +178,11 @@ nav {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    /* Beach */
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
  } 
