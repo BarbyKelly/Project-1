@@ -99,6 +99,13 @@ main {
     margin-top: 79px;
 }
 
+ /* Media query: hover effect on laptops and upwards */
+ @media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #333333;
+    }
+}
+
 /* Main content */
 main {
     background-color: #a576a7;
@@ -135,4 +142,6 @@ nav {
     .nav-toggle-label {
         display: none;
     }
-}
+
+  
+ } 
