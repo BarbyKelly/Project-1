@@ -21,7 +21,7 @@ body {
 
 /* Header - except backgroung-color and box-shadow color, the rest of the header styling code exactly like in Love Running (for now) */
 header {
-    background-color: #FFD700;
+    background-color: #eed651;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -60,7 +60,7 @@ h1 {
 
 /* Main */
 main {
-    background-color: #30D5C8;
+    background-color: #654166;
 /* Make main element take up any surplus space to push footer down. Comment and flex
 element exactly typed from Love Running */
     flex: 1 0 auto;
@@ -68,5 +68,5 @@ element exactly typed from Love Running */
 
 /* Footer */
 footer {
-    background-color: #CBC3E3;
+    background-color: #504080;
 }
