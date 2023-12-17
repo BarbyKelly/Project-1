@@ -167,6 +167,26 @@ element exactly typed from Love Running */
     #disclaimer {
         color: #333333;
     }
+    
+     /* Energy Tools section */
+     #energy-tools {
+        background: url('../images/rainbow.jpg') no-repeat center/cover;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #energy-tools div {
+      color: #333333;  
+      background-image: url('../images/rainbow.jpg') no-repeat;
+      padding: 15px;
+      text-align: center;
+      /* This will not wrap screens of less than 400px wide. 
+      Each div will expand to fill the available space on its row - Exact comment from Love Running */
+      flex-basis: 200px;
+      flex-grow: 1;
+      /* Creates a grid of energy tools over the background image */
+      border: 2px solid #e9e7f0;
+    }
 
 /* Footer */
 footer {
@@ -227,10 +247,4 @@ nav {
         width: 75%;
     }
 
-    /* Energy Tools section */
-    #energy-tools {
-        background: url('../images/rainbow.jpg') no-repeat center/cover;
-        display: flex;
-        flex-wrap: wrap;
-    }
  } 
