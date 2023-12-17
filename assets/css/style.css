@@ -226,4 +226,11 @@ nav {
     #benefits-surroundings>div, #benefits-choices>div, #benefits-empowerement>div {
         width: 75%;
     }
+
+    /* Energy Tools section */
+    #energy-tools {
+        background: url('../images/rainbow.jpg') no-repeat center/cover;
+        display: flex;
+        flex-wrap: wrap;
+    }
  } 
