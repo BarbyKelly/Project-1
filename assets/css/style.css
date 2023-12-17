@@ -120,6 +120,20 @@ footer {
     background-color: #e9e7f0;
 }
 
+/* both #social-networks like in Love Running (for now) except color */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #333333;
+}
 /* Media query: tablets and larger (768px and up) exactly like in Love Running (for now) */
 @media screen and (min-width: 768px) {
 /* Header */
