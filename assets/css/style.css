@@ -26,6 +26,11 @@ h1, h2, h3 {
     color: #333333;
 }
 
+/* Hidden heading - like in Love Running */
+.hidden-heading {
+    display: none;
+}
+
 /* Header - except backgroung-color and box-shadow color, the rest of the header styling code exactly like in Love Running (for now) */
 header {
     background-color: #a39a69;
@@ -168,8 +173,8 @@ element exactly typed from Love Running */
         color: #333333;
     }
     
-     /* Energy Tools section */
-     #energy-tools {
+    /* Energy Tools section */
+    #energy-tools {
         background: url('../images/rainbow.jpg') no-repeat center/cover;
         display: flex;
         flex-wrap: wrap;
@@ -246,5 +251,4 @@ nav {
     #benefits-surroundings>div, #benefits-choices>div, #benefits-empowerement>div {
         width: 75%;
     }
-
  } 
