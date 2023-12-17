@@ -1,9 +1,9 @@
-* Google fonts import */
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300&display=swap');
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser.
 This wildcard code is from Love Running Setting up basic CSS Styles */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -27,6 +27,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /* Header a exactly like in Love Running (for now) */
@@ -38,7 +41,7 @@ header a {
 h1 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     color: #333333;
 }
 
@@ -67,14 +70,29 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #333333;
     display: none;
+    top: 100%;
 }
 
-/* Main */
+/* Nav toggle - like in Love Running */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Main content */
 main {
     background-color: #a576a7;
 /* Make main element take up any surplus space to push footer down. Comment and flex
 element exactly typed from Love Running */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
