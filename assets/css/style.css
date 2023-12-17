@@ -215,4 +215,15 @@ nav {
         width: 300px;
         right: 50px;
     }
+
+    /* Reasons section - like in Love Running except the names of the benefits */
+    #benefits-surroundings, #benefits-choices, #benefits-empowerement {
+        display: flex;
+        flex-direction: center;
+        width: 100%;
+    }
+
+    #benefits-surroundings>div, #benefits-choices>div, #benefits-empowerement>div {
+        width: 75%;
+    }
  } 
