@@ -58,9 +58,20 @@ h1 {
     border-bottom: 2px solid #333333;
 }
 
+/* Navbar styles with dropdown toggle. Typed from Love Running, except back-ground color */
+nav {
+    position: absolute;
+    background-color: #e9e7f0;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #333333;
+    display: none;
+}
+
 /* Main */
 main {
-    background-color: #654166;
+    background-color: #a576a7;
 /* Make main element take up any surplus space to push footer down. Comment and flex
 element exactly typed from Love Running */
     flex: 1 0 auto;
@@ -68,5 +79,5 @@ element exactly typed from Love Running */
 
 /* Footer */
 footer {
-    background-color: #504080;
+    background-color: #e9e7f0;
 }
