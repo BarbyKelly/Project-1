@@ -138,6 +138,36 @@ element exactly typed from Love Running */
         color: #333333;
     }
 
+    /* Reasons and benefits - codes like in Love Running (for now) */
+    #reasons {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #reasons h2 {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 280%;
+    }
+
+    #benefits-surroundings>div, #benefits-choices>div, #benefits-empowerement>div {
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    #benefits p, #disclaimer p {
+        padding: 0 20px;
+    }
+
+    hr {
+        border-top: 1px solid #333333;
+        margin: 5px 0;
+    }
+
+    #disclaimer {
+        color: #333333;
+    }
+
 /* Footer */
 footer {
     background-color: #e9e7f0;
