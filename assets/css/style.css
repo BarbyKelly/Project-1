@@ -21,7 +21,7 @@ body {
 
 /* Header - except backgroung-color and box-shadow color, the rest of the header styling code exactly like in Love Running (for now) */
 header {
-    background-color: #eed651;
+    background-color: #a39a69;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -58,13 +58,13 @@ h1 {
 }
 
 .active {
-    border-bottom: 2px solid #333333;
+    border-bottom: 1px solid #333333;
 }
 
 /* Navbar styles with dropdown toggle. Typed from Love Running, except back-ground color */
 nav {
     position: absolute;
-    background-color: #e9e7f0;
+    background-color: #a39a69;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -98,4 +98,28 @@ element exactly typed from Love Running */
 /* Footer */
 footer {
     background-color: #e9e7f0;
+}
+
+/* Media query: tablets and larger (768px and up) exactly like in Love Running (for now) */
+@media screen and (min-width: 768px) {
+/* Header */
+nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    }    
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
