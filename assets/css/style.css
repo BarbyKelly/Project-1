@@ -19,7 +19,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -91,19 +93,6 @@ nav {
     font-size: 2rem;
 }
 
-/* #logo like in Love Running (for now) */
-#logo {
-    font-size: 280%;
-    line-height: 75px;
-    margin: 0 0.5rem;
-}
-
-/* Main content - like in Love Running */
-main {
-    /* Push main content down to accommodate larger header */
-    margin-top: 79px;
-}
-
  /* Media query: hover effect on laptops and upwards */
  @media screen and (min-width: 992px) {
     #menu a:hover{
@@ -139,7 +128,8 @@ element exactly typed from Love Running */
     padding-left: 10px;
     }
 
-    #cover-text > h2, #cover-text > h3 {
+    #cover-text > h2,
+    #cover-text > h3 {
         color: #333333;
     }
 
@@ -156,16 +146,19 @@ element exactly typed from Love Running */
         font-size: 280%;
     }
 
-    #benefits-surroundings>div, #benefits-choices>div, #benefits-empowerement>div {
+    #benefits-surroundings>div,
+    #benefits-choices>div,
+    #benefits-empowerement>div {
         line-height: 20px;
         margin-bottom: 20px;
     }
 
-    #benefits p, #disclaimer p {
+    #benefits p,
+    #disclaimer p {
         padding: 0 20px;
     }
 
-    hr {
+    #benefits hr {
         border-top: 1px solid #333333;
         margin: 5px 0;
     }
@@ -177,6 +170,7 @@ element exactly typed from Love Running */
     /* Energy Tools section */
     #energy-tools {
         background: url('../images/rainbow.jpg') no-repeat center/cover;
+        /* Handles responsivity without the need for a media query - typed from Love Running*/
         display: flex;
         flex-wrap: wrap;
     }
@@ -205,8 +199,6 @@ element exactly typed from Love Running */
         line-height: 0;
     }
 
-
-
 /* Footer */
 footer {
     background-color: #e9e7f0;
@@ -226,6 +218,15 @@ footer {
     padding: 5%;
     color: #333333;
 }
+
+/* Media query: large or landscape phones (576px and up) like in Love Running (for now) */
+@media screen and (min-width: 576px) {
+#photos {
+    column-count: 2;
+    column-gap: 0;
+    }    
+}
+
 /* Media query: tablets and larger (768px and up) exactly like in Love Running (for now) */
 @media screen and (min-width: 768px) {
 /* Header */
@@ -249,6 +250,19 @@ nav {
         display: none;
     }
 
+    /* #logo like in Love Running (for now) */
+#logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+
+/* Main content - like in Love Running */
+main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 79px;
+}
+
     /* Beach */
     #cover-text {
         width: 300px;
@@ -256,13 +270,33 @@ nav {
     }
 
     /* Reasons section - like in Love Running except the names of the benefits */
-    #benefits-surroundings, #benefits-choices, #benefits-empowerement {
+    #benefits-surroundings,
+    #benefits-choices,
+    #benefits-empowerement {
         display: flex;
         flex-direction: center;
         width: 100%;
     }
 
-    #benefits-surroundings>div, #benefits-choices>div, #benefits-empowerement>div {
+    #benefits-surroundings>div,
+    #benefits-choices>div,
+    #benefits-empowerement>div {
         width: 75%;
+    }
+
+    #benefits-empowerement>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
+    /* Images */
+    #photos {column-count: 3;
+    }
+
+    /* Large devices (laptops and desktops, 992px and up) - Like in Love Running except color */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #333333;
+        }
     }
  } 
