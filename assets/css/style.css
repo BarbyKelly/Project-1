@@ -110,7 +110,7 @@ nav {
 /* Main content */
 main {
    /* Make main element take up any surplus space to push footer down. Comment and flex
-element exactly typed from Love Running */
+element exactly typed from Love Running (for now)*/
     flex: 1 0 auto;
     margin-top: 47px;
 }
@@ -144,8 +144,12 @@ element exactly typed from Love Running */
     #reasons {
         width: 90%;
         margin: 20px auto;
-        background-image: url('../images/beach.jpg') no-repeat center/cover opacity 0.2;
-    }
+            }
+
+    #benefits.html {
+        background-image: url('../images/beachkerry.jpg');
+        z-index: 95;
+            }
 
     #reasons h2 {
         margin-bottom: 20px;
@@ -191,22 +195,10 @@ element exactly typed from Love Running */
       Each div will expand to fill the available space on its row - Exact comment from Love Running */
       flex-basis: 200px;
       flex-grow: 1;
-      /* Creates a grid of energy tools over the background image */
       border: 2px solid #e9e7f0;
     }
 
-
-    /* Images.html styles like in Love Running (for now) */
-    #benefits  img {
-        width: 100%;
-        line-height: 1em;
-    }
-
-    #images {
-        line-height: 0;
-    }
-
-/* Footer */
+    /* Footer */
 footer {
     background-color: #e9e7f0;
 }
