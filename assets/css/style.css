@@ -180,17 +180,15 @@ element exactly typed from Love Running (for now)*/
         color: #333333;
     }
     
-    /* Energy Tools section */
-    #energy-tools {
-        background: url('../images/rainbow.jpg') no-repeat center/cover;
-        /* Handles responsivity without the need for a media query - typed from Love Running*/
-        display: flex;
-        flex-wrap: wrap;
+    /* Energy Tools Table */
+    #table, th, td {
+       border: 1px solid;  
+       width: auto;    
+       border-collapse: collapse;
     }
 
-    #energy-tools div {
+    #energy-tools-table div {
       color: #333333;  
-      background-image: url('../images/rainbow.jpg') no-repeat;
       padding: 15px;
       text-align: center;
       /* This will not wrap screens of less than 400px wide. 
