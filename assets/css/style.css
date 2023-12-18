@@ -147,6 +147,7 @@ element exactly typed from Love Running */
     #reasons {
         width: 90%;
         margin: 20px auto;
+        background-image: url('../images/beach.jpg') no-repeat center/cover opacity 0.2;
     }
 
     #reasons h2 {
