@@ -9,47 +9,54 @@ This wildcard code is from Love Running Setting up basic CSS Styles */
     box-sizing: border-box;
 }
 
-/* General styles. Except the color, body {} code it from Love Running */
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     color: #333333;
     font-family: 'Roboto', sans-serif;
 }
 
 h1,
-h2,
 h3 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #333333;
+    text-decoration: none;
 }
 
-/* Hidden heading - like in Love Running */
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    color: #333333;
+}
+
+/* Hidden heading */
 .hidden-heading {
     display: none;
 }
 
-/* Header - except backgroung-color and box-shadow color, the rest of the header styling code exactly like in Love Running (for now) */
+/* Header */
 header {
     background-color: #a39a69;
-    padding: 0 1rem;
+    padding: 0 2rem;
     position: fixed;
-    z-index: 99;
+    z-index: 85;
     width: 100%;
-    box-shadow: 0 2px 2px #333333;
+    box-shadow: 0 1px 1px #333333;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    text-decoration: none;
 }
 
-/* Header a exactly like in Love Running (for now) */
+/* Header */
 header a {
-    text-decoration: none;
     color: inherit;
+    font-size: large;
+    font-weight: 200;
 }
 
 /* #menu like in Love Running (for now) */
