@@ -140,22 +140,24 @@ element exactly typed from Love Running (for now)*/
         color: #333333;
     }
 
-    /* Reasons and benefits - codes like in Love Running (for now) */
+    /* Reasons and benefits */
     #reasons {
-        width: 90%;
-        margin: 20px auto;
+        width: 80%;
+        margin: 30px 30px;
             }
 
-    #benefits.html {
+    /* Make background image to fit the whole page benefits.html, needs to be faded, not working yet */
+    #benefits {
         background-image: url('../images/beachkerry.jpg');
         z-index: 95;
             }
 
     #reasons h2 {
-        margin-bottom: 20px;
-        text-align: center;
-        font-size: 280%;
-    }
+                margin-bottom: 30px;
+                text-align: center;
+                font-size: 200%;
+                color: #333333;
+        }
 
     #benefits-awareness>div,
     #benefits-choices>div,
@@ -220,10 +222,7 @@ footer {
 
 /* Media query: large or landscape phones (576px and up) like in Love Running (for now) */
 @media screen and (min-width: 576px) {
-#photos {
-    column-count: 2;
-    column-gap: 0;
-    }    
+  
 }
 
 /* Media query: tablets and larger (768px and up) exactly like in Love Running (for now) */
@@ -283,20 +282,11 @@ main {
         width: 75%;
     }
 
-    /* Images */
-    #photos {column-count: 3;
-    }
-
     /* Large devices (laptops and desktops, 992px and up) - Like in Love Running except color */
     @media screen and (min-width: 992px) {
         #menu a:hover {
             border-bottom: 1px solid #333333;
         }
-    }
-
-    /* Images - like in Love Running (for now)*/
-    #photos {
-        column-count: 4;
     }
 
     /* Larger screens (1200px and up) - Like in Love Running */
