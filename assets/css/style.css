@@ -194,6 +194,19 @@ element exactly typed from Love Running */
       border: 2px solid #e9e7f0;
     }
 
+
+    /* Images.html styles like in Love Running (for now) */
+    #images img {
+        width: 100%;
+        line-height: 1em;
+    }
+
+    #photos {
+        line-height: 0;
+    }
+
+
+
 /* Footer */
 footer {
     background-color: #e9e7f0;
