@@ -284,11 +284,6 @@ main {
         width: 75%;
     }
 
-    #benefits-empowerement>div {
-        text-align: end;
-        align-self: flex-end;
-    }
-
     /* Images */
     #photos {column-count: 3;
     }
@@ -297,6 +292,20 @@ main {
     @media screen and (min-width: 992px) {
         #menu a:hover {
             border-bottom: 1px solid #333333;
+        }
+    }
+
+    /* Images - like in Love Running (for now)*/
+    #photos {
+        column-count: 4;
+    }
+
+    /* Larger screens (1200px and up) - Like in Love Running */
+    @media screen and (min-width: 1200px) {
+        /* Reasons section */
+        #benefits {
+            display: flex;
+            flex-direction: row;
         }
     }
  } 
