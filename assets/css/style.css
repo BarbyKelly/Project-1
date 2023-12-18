@@ -95,7 +95,7 @@ nav {
 
  /* Media query: hover effect on laptops and upwards */
  @media screen and (min-width: 992px) {
-    #menu a:hover{
+#menu a:hover{
         border-bottom: 1px solid #333333;
     }
 }
@@ -190,12 +190,12 @@ element exactly typed from Love Running */
 
 
     /* Images.html styles like in Love Running (for now) */
-    #images img {
+    #benefits  img {
         width: 100%;
         line-height: 1em;
     }
 
-    #photos {
+    #images {
         line-height: 0;
     }
 
