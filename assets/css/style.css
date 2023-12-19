@@ -141,6 +141,21 @@ main {
         color: #333333;
     }
 
+    /* Style energy tools table */
+    #energy-tools-table {
+        padding: auto;
+        border-color: #e9e7f0;
+        border: none;
+    }
+
+    #energy-tools-table td {
+        padding: 1cm;
+    }
+
+    #energy-tools-table tr {
+        padding: auto;
+    }
+
     /* Reasons and benefits */
     #reasons {
         width: 80%;
