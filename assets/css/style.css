@@ -242,10 +242,10 @@ nav {
         display: none;
     }
 
-    /* #logo */
+    /* logo */
 #logo {
-    font-size: 200%;
-    line-height: 60px;
+    font-size: 185%;
+    line-height: 80px;
     margin: 0 1rem;
 }
 
