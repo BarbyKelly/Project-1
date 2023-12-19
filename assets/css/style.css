@@ -194,6 +194,10 @@ main {
     #benefits {
         background-image: url('../images/beachkerry.jpg');
         z-index: 95;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vh;
             }
 
     #reasons h2 {
