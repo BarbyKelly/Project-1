@@ -141,15 +141,7 @@ main {
         color: #333333;
     }
 
-    /* Disclaimer */
-    #disclaimer {
-        color: #333333;
-        padding-left: 2cm;
-        padding-top: 1cm;
-        padding-right: 2cm;
-        padding-bottom: 1cm;
-        font-style: italic;
-    }
+    
     
     /* Energy Tools Table */
     #table, th, td {
@@ -182,6 +174,16 @@ main {
 
     #energy-tools tr {
         padding: auto;
+    }
+
+    /* Disclaimer */
+    #disclaimer {
+        color: #333333;
+        padding-left: 2cm;
+        padding-top: 1cm;
+        padding-right: 2cm;
+        padding-bottom: 1cm;
+        font-style: italic;
     }
 
     /* Reasons and benefits */
