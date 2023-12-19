@@ -18,18 +18,13 @@ body {
 }
 
 h1,
+h2,
 h3 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #333333;
     text-decoration: none;
-}
-
-h2 {
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 2px;
-    color: #333333;
 }
 
 /* Hidden heading */
@@ -136,12 +131,11 @@ main {
     padding-left: 5px;
     }
 
-    #cover-text > h2,
     #cover-text > h3 {
         color: #333333;
     }
 
-    
+    #tool
     
     /* Energy Tools Table */
     #table, th, td {
