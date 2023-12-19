@@ -1,8 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@300&display=swap');
 
-/* Asterisk wildcard selector to override default styles added by the browser.
-This wildcard code is from Love Running Setting up basic CSS Styles */
+/* Asterisk wildcard selector to override default styles added by the browser. From Love Running */
 * {
     padding: 0;
     margin: 0;
@@ -11,7 +10,7 @@ This wildcard code is from Love Running Setting up basic CSS Styles */
 
 /* General styles */
 body {
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     color: #333333;
@@ -59,20 +58,20 @@ header a {
     font-weight: 200;
 }
 
-/* #menu like in Love Running (for now) */
+/* #menu */
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
+    font-size: 95%;
+    letter-spacing: 3px;
     list-style-type: none;
 }
 
-/* #menu > li for now like in Love Running */
+/* #menu > li */
 #menu > li {
-    margin-bottom: 1em;
+    margin-bottom: 2.5em;
 }
 
 .active {
-    border-bottom: 1px solid #333333;
+    border-bottom: 1.5px solid #333333;
 }
 
 /* Navbar styles with dropdown toggle. Typed from Love Running, except back-ground color */
@@ -87,7 +86,7 @@ nav {
     top: 100%;
 }
 
-/* Nav toggle - like in Love Running */
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -107,32 +106,34 @@ nav {
     }
 }
 
+
 /* Main content */
 main {
-   /* Make main element take up any surplus space to push footer down. Comment and flex
-element exactly typed from Love Running (for now)*/
+   /* Make main element take up any surplus space to push footer down. */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 49px;
 }
 
 /* Beach section */
 #beach {
     height: 600px;
     width: 100%;
-    background: url("../images/beach.jpg") no-repeat center center/cover;
-    position: relative
+    background: url("../images/beach.jpg") no-repeat center;
+    position: unset;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
-/* Cover text - except background-color, rest is like in Love Running */
+/* Cover text */
 #cover-text {
     background-color: #e9e7f0;
     font-size: 130%;
     position: absolute;
-    bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    bottom: 20px;
+    width: 90%;
+    min-height: 150px;
+    padding-top: 20px;
+    padding-left: 5px;
     }
 
     #cover-text > h2,
@@ -200,31 +201,31 @@ element exactly typed from Love Running (for now)*/
 
     /* Footer */
 footer {
-    background-color: #e9e7f0;
+    background-color: #a39a69;
 }
 
-/* both #social-networks like in Love Running (for now) except color */
 #social-networks {
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     list-style-type: none;
 }
 
 #social-networks i {
-    font-size: 160%;
-    padding: 5%;
+    font-size: 125%;
+    padding: 10%;
     color: #333333;
 }
 
-/* Media query: large or landscape phones (576px and up) like in Love Running (for now) */
+/* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-  
 }
 
-/* Media query: tablets and larger (768px and up) exactly like in Love Running (for now) */
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+}    
+
 /* Header */
 nav {
     display: block;
@@ -232,6 +233,7 @@ nav {
     box-shadow: none;
     width: fit-content;
     padding-right: 1rem;
+    padding-left: 2rem;
     }    
 
     #menu {
@@ -246,26 +248,26 @@ nav {
         display: none;
     }
 
-    /* #logo like in Love Running (for now) */
+    /* #logo */
 #logo {
-    font-size: 280%;
-    line-height: 75px;
-    margin: 0 0.5rem;
+    font-size: 200%;
+    line-height: 60px;
+    margin: 0 1rem;
 }
 
-/* Main content - like in Love Running */
+/* Main content */
 main {
     /* Push main content down to accommodate larger header */
-    margin-top: 79px;
+    margin-top: 70px;
 }
 
     /* Beach */
     #cover-text {
-        width: 300px;
+        width: 250px;
         right: 50px;
     }
 
-    /* Reasons section - like in Love Running except the names of the benefits */
+    /* Reasons section */
     #benefits-awareness,
     #benefits-choices,
     #benefits-empowerement {
@@ -277,22 +279,23 @@ main {
     #benefits-awareness>div,
     #benefits-choices>div,
     #benefits-empowerement>div {
-        width: 75%;
+        width: 65%;
     }
 
-    /* Large devices (laptops and desktops, 992px and up) - Like in Love Running except color */
+    /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
         #menu a:hover {
-            border-bottom: 1px solid #333333;
+            border-bottom: 0.5px solid #333333;
         }
     }
 
-    /* Larger screens (1200px and up) - Like in Love Running */
+    /* Larger screens (1200px and up) */
     @media screen and (min-width: 1200px) {
         /* Reasons section */
         #benefits {
             display: flex;
             flex-direction: row;
+            padding-left: 2rem;
         }
     }
- } 
+ 
