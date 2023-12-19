@@ -111,12 +111,13 @@ main {
 
 /* Beach section */
 #beach {
-    height: 600px;
-    width: 100%;
+    height: 500px;
+    width: auto;
     background: url("../images/beach.jpg") no-repeat center;
     position: unset;
     margin-left: 0%;
     margin-right: 0%;
+    padding-bottom: 5cm;
 }
 
 /* Cover text */
@@ -134,40 +135,13 @@ main {
     #cover-text > h3 {
         color: #333333;
     }
-
-    #tool
-    
+      
     /* Energy Tools Table */
-    #table, th, td {
-       border: 1px solid;  
-       width: auto;    
-       border-collapse: collapse;
-    }
-
-    #energy-tools div {
+    #energy-tools {
       color: #333333;  
+      padding-top: 5cm;
       padding: 15px;
       text-align: center;
-      /* This will not wrap screens of less than 400px wide. 
-      Each div will expand to fill the available space on its row - Exact comment from Love Running */
-      flex-basis: 200px;
-      flex-grow: 1;
-      border: 2px solid #e9e7f0;
-    }
-
-    /* Style energy tools table */
-    #energy-tools {
-        padding: auto;
-        border-color: #e9e7f0;
-        border: none;
-    }
-
-    #energy-tools td {
-        padding: 1cm;
-    }
-
-    #energy-tools tr {
-        padding: auto;
     }
 
     /* Disclaimer */
