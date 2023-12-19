@@ -276,6 +276,12 @@ main {
         width: 65%;
     }
 
+    #signup {
+       background-image: url('..assets/images/skylight.jpg');
+       text-align: center;
+       align-items: ;
+       }
+
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
         #menu a:hover {
