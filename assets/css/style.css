@@ -169,10 +169,9 @@ main {
     /* Reasons and benefits */
     #reasons {
         width: 80%;
-        margin: 30px 30px;
+        margin: 30px auto;
             }
 
-    /* Make background image to fit the whole page benefits.html, needs to be faded, not working yet */
     #benefits {
         background-image: url('../images/beachkerry.jpg');
         z-index: 95;
