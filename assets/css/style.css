@@ -143,6 +143,11 @@ main {
       text-align: center;
     }
 
+    #book {
+        height: 2%;
+        width: auto;
+    }
+    
     /* Disclaimer */
     #disclaimer {
         color: #333333;

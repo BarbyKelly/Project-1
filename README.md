@@ -93,6 +93,8 @@ people share their own experience
 
 ![Sign up confirmation] place an image here
 
+#### Features Left to Implement
+
 
 
 
