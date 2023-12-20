@@ -34,9 +34,9 @@ h3 {
 /* Header */
 header {
     background-color: #a39a69;
-    padding: 0.5rem;
+    padding: 0 1rem;
     position: fixed;
-    z-index: 85;
+    z-index: 95;
     width: 100%;
     box-shadow: 0 0 0 #333333;
     display: flex;
@@ -105,7 +105,7 @@ nav {
 main {
    /* Make main element take up any surplus space to push footer down. */
     flex: 1 0 auto;
-    margin-top: 49px;
+    margin-top: 100px;
 }
 
 /* Beach section */
@@ -248,11 +248,7 @@ nav {
 
     
 
-/* Main content */
-main {
-    /* Push main content down to accommodate larger header */
-    margin-top: 70px;
-}
+
 
     /* Beach */
     #cover-text {
@@ -278,8 +274,9 @@ main {
     #signup {
        background-image: url('..assets/images/skylight.jpg');
        text-align: center;
-       align-items: ;
-       }
+       display: flex;
+       flex-direction: column;
+    }
 
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
