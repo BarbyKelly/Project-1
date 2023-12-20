@@ -271,11 +271,30 @@ nav {
         width: 65%;
     }
 
+    /* Signup */
     #signup {
-       background-image: url('..assets/images/skylight.jpg');
+       background: url('..assets/images/skylight.jpg') center opacity: 0.5;
        text-align: center;
        display: flex;
        flex-direction: column;
+       padding-top: 1rem;
+       padding-left: 1 rem;
+       }
+
+     /* Large devices (laptops and desktops, 992px and up) */
+     @media screen and (min-width: 992px) {
+        .signup {
+            padding-left: 15rem;
+            padding-right: 15rem;
+        }
+     }
+       
+       form {
+        padding-top: 2rem;
+    }
+
+    h2 {
+        text-align: center;
     }
 
     /* Large devices (laptops and desktops, 992px and up) */
