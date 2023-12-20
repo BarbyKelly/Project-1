@@ -38,43 +38,42 @@ header {
     position: fixed;
     z-index: 95;
     width: 100%;
-    box-shadow: 0 0 0 #333333;
+    box-shadow: 0 2px 2px #333333;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-/* Logo */
-#logo {
-    font-size: 2rem;
-    line-height: 0.1;
-    margin: 0;
+header a {
     text-decoration: none;
+    color: #333333;
 }
 
-/* #menu */
+
+
+/* Menu */
 #menu {
-    font-size: 1rem;
+    font-size: 100%;
     letter-spacing: 3px;
     list-style-type: none;
 }
 
-/* #menu > li */
+/* Mmenu > li */
 #menu > li {
-    margin-bottom: 2.5em;
+    margin-bottom: 1.5em;
 }
 
 .active {
     border-bottom: 1.5px solid #333333;
 }
 
-/* Navbar styles with dropdown toggle. Typed from Love Running, except back-ground color */
+/* Navbar styles with dropdown toggle. */
 nav {
     position: absolute;
     background-color: #a39a69;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     box-shadow: 0 2px 2px #333333;
     display: none;
     top: 100%;
@@ -93,45 +92,49 @@ nav {
     font-size: 2rem;
 }
 
- /* Media query: hover effect on laptops and upwards */
- @media screen and (min-width: 992px) {
-#menu a:hover{
-        border-bottom: 1px solid #333333;
-    }
+/* Logo */
+#logo {
+    font-size: 250%;
+    line-height: 55px;
+    margin: 0 0.75rem;
 }
-
 
 /* Main content */
 main {
-   /* Make main element take up any surplus space to push footer down. */
     flex: 1 0 auto;
-    margin-top: 100px;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 0.5px solid #333333;
+    }
 }
 
 /* Beach section */
 #beach {
     height: 500px;
-    width: auto;
-    background: url("../images/beach.jpg") no-repeat center;
-    position: unset;
-    margin-left: 0;
-    margin-right: 0;
-    padding-bottom: 5cm;
+    max-width: 100%;
+    background: url("../images/beach.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
 /* Cover text */
 #cover-text {
     background-color: #e9e7f0;
-    font-size: 130%;
+    font-size: 110%;
     position: absolute;
     bottom: 20px;
     width: 90%;
     min-height: 150px;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 5px;
     }
 
-    #cover-text > h3 {
+    #cover-text > h2 {
         color: #333333;
     }
       
@@ -139,12 +142,17 @@ main {
     #energy-tools {
       color: #333333;  
       padding-top: 5rem;
-      padding: 15px;
       text-align: center;
     }
 
-    #book {
-        height: 2rem;
+    .energy-tools p {
+    color: #333333;
+    font-size: 110%;
+    font-weight: bold;
+    }
+
+    #book-cover {
+        height: 15%;
         width: auto;
     }
 
@@ -210,14 +218,14 @@ main {
     list-style-type: none;
 }
 
-#social-networks i {
+    #social-networks i {
     font-size: 125%;
     padding: 1rem;
     color: #333333;
 }
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
+@media (min-width: 576px) {
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -230,8 +238,7 @@ nav {
     position: relative;
     box-shadow: none;
     width: fit-content;
-    padding-right: 1rem;
-    padding-left: 2rem;
+    padding-right: 2rem;
     }    
 
     #menu {
@@ -245,10 +252,6 @@ nav {
     .nav-toggle-label {
         display: none;
     }
-
-    
-
-
 
     /* Beach */
     #cover-text {
@@ -273,11 +276,10 @@ nav {
 
     /* Signup */
     #signup {
-       background: url('..assets/images/skylight.jpg') center opacity: 0.5;
        text-align: center;
        display: flex;
        flex-direction: column;
-       padding-top: 1rem;
+       padding-top: 2rem;
        padding-left: 1 rem;
        }
 
@@ -286,23 +288,25 @@ nav {
         .signup {
             padding-left: 15rem;
             padding-right: 15rem;
-        }
+            }
      }
        
        form {
-        padding-top: 2rem;
+        padding-top: 5rem;
     }
 
     h2 {
         text-align: center;
     }
 
-    /* Large devices (laptops and desktops, 992px and up) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 0.5px solid #333333;
+    /* Media query: hover effect on laptops and upwards */
+ @media screen and (min-width: 992px) {
+    #menu a:hover{
+            border-bottom: 1px solid #333333;
         }
     }
+
+    
 
     /* Larger screens (1200px and up) */
     @media screen and (min-width: 1200px) {
