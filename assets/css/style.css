@@ -166,22 +166,22 @@ main {
         font-style: italic;
     }
 
-    /* Reasons and benefits */
-    #reasons {
+    /* Benefits */
+    #benefits {
         width: 80%;
         margin: 30px auto;
             }
 
-    #benefits {
+    .benefits {
         background-image: url('../images/beachkerry.jpg');
         z-index: 95;
         background-size: contain;
         background-repeat: no-repeat;
         height: 100vh;
-        width: 100vh;
-            }
+        width: 100%;
+        }
 
-    #reasons h2 {
+    #benefits h2 {
                 margin-bottom: 30px;
                 text-align: center;
                 font-size: 200%;
@@ -279,16 +279,18 @@ nav {
        display: flex;
        flex-direction: column;
        padding-top: 2rem;
-       padding-left: 1 rem;
+       padding-left: 1rem;
        }
 
      /* Large devices (laptops and desktops, 992px and up) */
      @media screen and (min-width: 992px) {
         .signup {
-            padding-left: 15rem;
-            padding-right: 15rem;
+            padding-left: 35rem;
+            padding-right: 35rem;
             }
      }
+
+     
        
        form {
         padding-top: 5rem;
