@@ -42,6 +42,15 @@ header {
     align-items: center;
 }
 
+header a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.active {
+    border-bottom: 1.5px solid #333333;
+}
+
 /* Logo */
 #logo {
     font-size: 24px;
@@ -103,6 +112,30 @@ nav {
     border-bottom: 2px solid #e9e7f0;
 }
 
+/* Beach section */
+#beach {
+    height: 500px;
+    max-width: 100%;
+    background: url("../images/beach.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+/* Cover text */
+#cover-text {
+    background-color: #e9e7f0;
+    font-size: 110%;
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+    min-height: 150px;
+    padding-top: 30px;
+    padding-left: 5px;
+    }
+
+    #cover-text > h2 {
+        color: #333333;
+    }
+    
 /* Main Content */
 main {
     padding: 20px;
