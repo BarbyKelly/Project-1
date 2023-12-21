@@ -99,7 +99,13 @@ people share their own experience
 
 ## Testing
 
-As I have not managed to complete the project or to get it to look ok on mobile screen, I have not done testing yet.
+- Sign Up form requests @ sign 
+![Alt text](<sign up form - email address.png>) 
+
+- Sign Up form confirmation works 
+![Alt text](<sign up form confirmation.png>)
+
+
 
 ### Validator Testing
 
@@ -196,12 +202,17 @@ https://mycolor.space/gradient3?ori=to+right+top&hex=%23847F54&hex2=%23A39A69&he
 - - https://fontawesome.com/icons 
 
 Font Awesome icons used for Sign Up page (sun), 
+
 ## Issues Fixed
 
 - Embed code - video size
-iframe video images embed code: too big. I changed height and width of these, reduced them all to the same size. 
+iframe video images embed code: too big. I changed height and width of these, reduced them all to one size. 
 
-- 
+- Signup form labels needed to be displayed:none, as placeholders were enough. Changing display to none for the signup label, caused menu dots not display as well on the header. Working tree helped to see what change could have caused menu to not display. Adding .signup to the label, and setting display: none, helped to not have labels display for signup form, and keep the menu dots
+![Alt text](<goal remove sign up labels.png>)
+![Alt text](<fix label - working tree clue-1.png>)
+![Alt text](<display label none, menu also gone .png>)
+![Alt text](<signup label fixed, menu back, .signup.png>)
 
 
 
