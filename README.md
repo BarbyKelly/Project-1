@@ -1,6 +1,6 @@
 # Energy Work
 
-This project's goal is to raise awareness about Energy Work, to show people how simple tools can make a difference to our wellbeing, our every day life. This page is suitable for people of all ages, who are interested in using their own hands, colour, imagination, to work with their energy and clear some energy blocks. Many of this page's author's friends and family have asked her for tips in regards to energy work, which tools to use. It's lovely to be able to gather some of her research on this page, and share the links instead of individual messages. And this way people can choose which method seems the best for them, instead of author sharing her "latest find". She has had interest and passion for natural healing, energy work from very young age. For the creator of this page, natural methods seemed always normal part of her life.
+This project's goal is to share different types of methods used for Energy Work, to show people how these methods can make a difference to our wellbeing. This page is suitable for people who are interested in using their own hands, colour, imagination, to work with their energy and maybe clear some energy blocks. Many of this page's author's friends and family have asked her for tips in regards to energy work, which tools to use. It's lovely to be able to gather some of her research on this page, and share the links instead of individual messages. And this way people can choose which method seems the best for them, instead of author sharing her "latest find". She has had interest and passion for natural healing, energy work from very young age. For the creator of this page, natural methods seemed always normal part of her life.
 
 ![Responsive Mockup] place an image here
 
@@ -94,6 +94,113 @@ people share their own experience
 ![Sign up confirmation] place an image here
 
 #### Features Left to Implement
+
+- As deadline is tomorrow, and the site is still not ok on mobile view, there is a lot still to do. Media settings, to adjust image on Benefits page, Title box size on signup page
+
+## Testing
+
+As I have not managed to complete the project or to get it to look ok on mobile screen, I have not done testing yet.
+
+### Validator Testing
+
+- HTML 
+- as project isn't complete, no testing done yet
+
+- CSS 
+- as project isn't complete, no testing done yet
+
+### Unfixed Bugs
+- as project isn't complete, no testing for bugs done yet
+
+## Deployment
+
+- The site was deployed to Github pages throughout working on the project
+
+## Credits
+
+- Images
+
+All of the photos used on the site are taken by me
+
+- Favicon
+
+https://favicon.io/favicon-converter/
+I used this website to convert a photo taken by me, into a favicon. Original image Fenit Co. Kerry, Ireland 
+
+- Book Cover
+
+I saved image of Inna Segal's book from this amazon page:
+https://www.amazon.com/Secret-Language-Your-Body-Essential/dp/1582702608
+
+
+- YouTube videos. My understanding is that it is ok to share these videos on my page, as I show them as videos created by someone else who is experienced in the specific area
+
+- - This embed code is copied from YouTube: https://www.youtube.com/watch?v=R5z00vRNmas
+I removed autoplay, deleted full-screen option, reduced size to fit the table, added alt
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R5z00vRNmas?si=H1lJ1EUCAzTegyZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+- - This embed code is copied from YouTube: https://www.youtube.com/watch?v=tZ8ztRgYC8w
+I removed autoplay, deleted full-screen option, reduced size to fit the table, added alt
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tZ8ztRgYC8w?si=lhMS68oKmPyJGntd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+
+- - This embed code is copied from https://www.thetappingsolution.com/tapping-101/
+I removed autoplay, deleted full-screen option, reduced size to fit the table, added alt. 
+
+<iframe width="475" height="287" src="https://www.youtube.com/embed/BPqGjcxoPS8" title="How to Tap with Jessica Ortner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+- Code
+
+- - Copied from Love Running
+/* Asterisk wildcard selector to override default styles added by the browser. */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+- - Copied from Love Running:
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+- - Typed exactly like in Love Running, as my nav bar stopped working after rearranging my pages, I wanted to ensure project is ok for testing, screenshots. Unfortunately still not ok for testing.
+
+ #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+- - Color selection used from https://mycolor.space/
+https://mycolor.space/gradient3?ori=to+right+top&hex=%23847F54&hex2=%23A39A69&hex3=%23333333&submit=submit
+![Alt text](<mycolor space-1.png>)
+
+## Issues Fixed
+
+- Embed code - video size
+iframe video images embed code: too big. I changed height and width of these, reduced them all to the same size. 
+
+- 
+
+
 
 
 
