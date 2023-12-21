@@ -215,8 +215,8 @@ main {
  }
 
   /* Signup */
- #signup-form {
-    max-width: 400px;
+ #signup {
+    max-width: auto;
     margin: auto;
     }
 
@@ -226,7 +226,7 @@ main {
     }
 
     label {
-        display: block;
+        display: flex;
         margin-bottom: 8px;
     }
 
@@ -274,7 +274,7 @@ footer {
 
 /* Mobile styles */
 @media screen and (max-width: 768px) {
-    header {
+    .header {
         padding: 1rem;
     }
 
@@ -293,10 +293,18 @@ footer {
     main {
         margin-top: 60px;
     }
+
+    .beachkerry {
+        width: auto;
+    }
+
+    .footer {
+        width; fit-content;
+    }
 }
 
 /* Tablet styles */
-@media screen and (min-width: 768px) {
+@media screen and (width <= 768px) {
     #menu > li {
         margin-bottom: 2em;
     }   

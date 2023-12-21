@@ -193,6 +193,9 @@ I removed autoplay, deleted full-screen option, reduced size to fit the table, a
 https://mycolor.space/gradient3?ori=to+right+top&hex=%23847F54&hex2=%23A39A69&hex3=%23333333&submit=submit
 ![Alt text](<mycolor space-1.png>)
 
+- - https://fontawesome.com/icons 
+
+Font Awesome icons used for Sign Up page (sun), 
 ## Issues Fixed
 
 - Embed code - video size
