@@ -17,9 +17,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -34,37 +32,28 @@ h3 {
 /* Header */
 header {
     background-color: #a39a69;
-    padding: 0 1rem;
+    padding: 1rem;
     position: fixed;
-    z-index: 95;
+    z-index: 85;
     width: 100%;
-    box-shadow: 0 2px 2px #333333;
+    box-shadow: 0 2px 4px #333333;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header a {
+/* Logo */
+#logo {
+    font-size: 24px;
+    line-height: 1;
+    margin: 0;
+    color: #e9e7f0;
     text-decoration: none;
-    color: #333333;
 }
 
-
-
-/* Menu */
-#menu {
-    font-size: 100%;
-    letter-spacing: 3px;
-    list-style-type: none;
-}
-
-/* Mmenu > li */
-#menu > li {
-    margin-bottom: 1.5em;
-}
-
-.active {
-    border-bottom: 1.5px solid #333333;
+nav {
+    display: flex;
+    align-items: center;
 }
 
 /* Navbar styles with dropdown toggle. */
@@ -92,121 +81,148 @@ nav {
     font-size: 2rem;
 }
 
-/* Logo */
-#logo {
-    font-size: 250%;
-    line-height: 55px;
-    margin: 0 0.75rem;
-}
-
-/* Main content */
-main {
-    flex: 1 0 auto;
-    margin-top: 55px;
+/* Menu */
+#menu {
     display: flex;
-    flex-direction: column;
+    list-style-type: none;
 }
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 0.5px solid #333333;
-    }
+#menu li {
+    margin-right: 20px;
 }
 
-/* Beach section */
-#beach {
-    height: 500px;
-    max-width: 100%;
-    background: url("../images/beach.jpg") no-repeat center center/cover;
-    position: relative;
+#menu a {
+    color: #e9e7f0;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: border-bottom 0.3s ease-in-out;
 }
 
-/* Cover text */
-#cover-text {
-    background-color: #e9e7f0;
-    font-size: 110%;
-    position: absolute;
-    bottom: 20px;
-    width: 90%;
-    min-height: 150px;
-    padding-top: 30px;
-    padding-left: 5px;
-    }
+#menu a: hover {
+    border-bottom: 2px solid #e9e7f0;
+}
 
-    #cover-text > h2 {
-        color: #333333;
-    }
-      
-    /* Energy Tools Table */
-    #energy-tools {
-      color: #333333;  
-      padding-top: 5rem;
-      text-align: center;
-    }
+/* Main Content */
+main {
+    padding: 20px;
+    margin-top: 70px; /* Push main content down to accomodate larger header */
+}
 
-    .energy-tools p {
+ /* Disclaimer */
+ #disclaimer {
     color: #333333;
-    font-size: 110%;
-    font-weight: bold;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    font-style: italic;
+}
+
+ /* Energy Tools Section */
+ #energy-tools {
+    border-color: #333333;  
+    padding-top: auto;
+    text-align: center;
+    border: none
+  }
+
+  #energy-tools table {
+    width: 100%;
+  }
+
+  #energy-tools td {
+    padding: 1rem;
+  }
+
+  #energy-tools tr {
+    padding: auto;
+  }
+
+  .energy-tools p {
+  color: #333333;
+  font-size: 110%;
+  font-weight: bold;
+  }
+
+  /* Benefits html */
+
+  /* Benefits section */
+  #benefits {
+    padding-left: 2rem;
+    background-size: cover;
+    height: auto;  
     }
-
-    #book-cover {
-        height: 15%;
-        width: auto;
-    }
-
-    /* Disclaimer */
-    #disclaimer {
-        color: #333333;
-        padding-left: 2rem;
-        padding-top: 1rem;
-        padding-right: 2rem;
-        padding-bottom: 1rem;
-        font-style: italic;
-    }
-
-    /* Benefits */
-    #benefits {
-        width: 80%;
-        margin: 30px auto;
-            }
-
-    .benefits {
-        background-image: url('../images/beachkerry.jpg');
-        z-index: 95;
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 100%;
-        }
 
     #benefits h2 {
-                margin-bottom: 30px;
-                text-align: center;
-                font-size: 200%;
-                color: #333333;
-        }
-
+        font-size: 180%;
+    }
+     
     #benefits-awareness>div,
-    #benefits-choices>div,
-    #benefits-empowerement>div {
-        line-height: 20px;
-        margin-bottom: 20px;
+        #benefits-choices>div,
+        #benefits-empowerement>div {
+            width: 100%;
     }
-
-    #benefits p  {
+    
+   #benefits p  {
         padding: 0 20px;
-    }
-
+        }
+    
     #benefits hr {
         border-top: 1px solid #333333;
         margin: 5px 0;
+        }
+
+        /* Reasons secti0n */
+
+ /* Reasons section */
+ #reasons {
+    width: 80%;
+    margin: 30px 30px;
+ }
+
+  /* Signup */
+ #signup-form {
+    max-width: 400px;
+    margin: auto;
     }
 
-    /* Footer */
-    footer {
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+select, input.text-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button.signup-button {
     background-color: #a39a69;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.signup-button:hover {
+    background-color: #847f54;
+}
+
+/* Footer */
+footer {
+    background-color: #a39a69;
+    margin-top: auto;
     }
 
     #social-networks {
@@ -219,103 +235,47 @@ main {
 
     #social-networks i {
     font-size: 125%;
-    padding: 1rem;
+    padding: 10%;
     color: #333333;
 }
 
-/* Media query: large or landscape phones (576px and up) */
-@media (min-width: 576px) {
-}
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 1rem;
+    }
 
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-}    
+    #logo {
+        font-size: 150%;
+    }
 
-/* Header */
-nav {
-    display: block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right: 2rem;
-    }    
-
-    #menu {
-        display: flex;
+    nav {
+        padding: 0.5rem;
     }
 
     #menu > li {
-        padding-left: 1rem;
+        margin-bottom: 1.5em;
     }
 
-    .nav-toggle-label {
-        display: none;
+    main {
+        margin-top: 60px;
     }
+}
 
-    /* Beach */
-    #cover-text {
-        width: 250px;
-        right: 50px;
+/* Tablet styles */
+@media screen and (min-width: 768px) {
+    #menu > li {
+        margin-bottom: 2em;
+    }   
+}
+
+/* Desktop styles */
+@media screen and (min-width: 992px) {
+    #menu a: hover {
+        border-bottom: 0.5px solid #333333;
     }
+}
 
-    /* Reasons section */
-    #benefits-awareness,
-    #benefits-choices,
-    #benefits-empowerement {
-        display: flex;
-        flex-direction: center;
-        width: 100%;
-    }
 
-    #benefits-awareness>div,
-    #benefits-choices>div,
-    #benefits-empowerement>div {
-        width: 65%;
-    }
 
-    /* Signup */
-    #signup {
-       text-align: center;
-       display: flex;
-       flex-direction: column;
-       padding-top: 2rem;
-       padding-left: 1rem;
-       }
 
-     /* Large devices (laptops and desktops, 992px and up) */
-     @media screen and (min-width: 992px) {
-        .signup {
-            padding-left: 35rem;
-            padding-right: 35rem;
-            }
-     }
-
-     
-       
-       form {
-        padding-top: 5rem;
-    }
-
-    h2 {
-        text-align: center;
-    }
-
-    /* Media query: hover effect on laptops and upwards */
- @media screen and (min-width: 992px) {
-    #menu a:hover{
-            border-bottom: 1px solid #333333;
-        }
-    }
-
-    
-
-    /* Larger screens (1200px and up) */
-    @media screen and (min-width: 1200px) {
-        /* Reasons section */
-        #benefits {
-            display: flex;
-            flex-direction: row;
-            padding-left: 2rem;
-        }
-    }
- 
