@@ -4,6 +4,7 @@ This project's goal is to share different types of methods used for Energy Work,
 
 ![Responsive Mockup] place an image here
 
+
 ## Features
 
 Home page shares energy tools how to start to work or sense your own energy. On this page visitor can click on links to access Youtube videos, find a link that brings visitor to another page to read an example of an ebook (how to understand your body and some symptoms), or click on a link to learn about Tapping EFT. 
@@ -12,6 +13,7 @@ This page includes an image taken by me, Ballyheigue County Kerry. I feel good a
 Benefits page: the goal here is to share the possible benefits from working with your own energy. It is understandable that each person has their own unique experiences, and examples given under Benefits section are some of the changes that the author of this page has noticed.
 
 Sign up page is created for the project to show that form works. At the moment sign ups won't be saved anywhere, as it's just for the purpose of this project
+
 
 ### Existing Features
 
@@ -23,6 +25,7 @@ https://favicon.io/favicon-converter/
 
 ![Alt text](favicon_io/favicon.ico)
 
+
 -_Navigation Bar_
 
 - Featured on all three pages. The full responsive navigation bar includes links to the Home page, Benefits and Sign Up page, and it is same in each page to allow for easy navigation. 
@@ -30,11 +33,13 @@ https://favicon.io/favicon-converter/
 
 ![Alt text](<Navigation bar.png>)
 
+
 -_The landing page image_
 
 - The landing page image is a photo of the Ballyheigue beach in county Kerry, captured by the creator of this page. This beach-side scenery brings hopefully a smile to the visitor's face, or feeling of light and tranquility
 
 ![Alt text](<Landing page.png>)
+
 
 -_Disclaimer_
 
@@ -46,6 +51,7 @@ https://favicon.io/favicon-converter/
 
 ![Disclaimer] place an image here
 
+
 -_Tools for Wellbeing Table_
 
 - Content of this table is aimed to make it easy for the user to find the area they are interested in, and to click on the video link, or link to read part of the book mentioned on the table. Autoplay and full-screen option have been removed from the embed code, to support visitors who prefer to play videos at their own time, at their own terms. Embed code helps to see what these videos are about. 
@@ -53,6 +59,7 @@ https://favicon.io/favicon-converter/
 - Table also includes samples of page creator's personal experiences while using all of these different energy tools
 
 ![Tools for Wellbeing] place an image here
+
 
 -_Social Media Links_
 
@@ -62,11 +69,13 @@ https://favicon.io/favicon-converter/
 
 ![Social Media Links] place an image here
 
+
 -_Benefits Section Image_
 
 -This image is a photo taken in Fenit county Kerry, by the author of this page. Author is hoping to share the peacefullness feeling from the water, sunshine, mountains on the background
 
 ![Benefits Section Image] place an image here
+
 
 -_Benefits Section_
 
@@ -74,35 +83,34 @@ https://favicon.io/favicon-converter/
 
 ![Benefits Section] place an image here
 
+
 -_Sign Up image_
 
 - add an image, then talk about it. 
 
 ![Benefits section image] place an image here
 
+
 -_Sign Up_
 
 - This form has been created for the project, to show functioning form. The author added Title option, with a drop down menu, and fields for First Name, Last Name and an email address. Form comes with Sign Up button, to complete signing up for emails. If it was a form for an actual business, or sole trader, blogger, email sign up would mean receiveng updates about the latest energy work research that the author has found, or read about. 
 
 - Sign up for emails has a favicon of a sun beside it, to brighten up the visitor's day. 
-
-![Sign up form] place an image here
+![Alt text](<sign up form.png>)
 
 - After signing up, visitor will see a confirmation
+![Alt text](<form submitted confirmation-1.png>)
 
-![Sign up confirmation] place an image here
 
 #### Features Left to Implement
 
 - As project's due date is today, 22.12.2023, and the site is still not completely ok on mobile view, there is still a lot to do. Media settings, to adjust Image label on Benefits page, tidy up table on the landing page. Due to unforseen circumstances I was not able to work on the project for some of the days. I understand that I'll have an opportunity in 2024 to adjust this project, once Code Institute says it's ok to edit again. 
 
+
 ## Testing
 
 - Sign Up form requests @ sign 
 ![Alt text](<sign up form - email address.png>) 
-
-- Sign Up form confirmation works 
-![Alt text](<sign up form confirmation.png>)
 
 
 
