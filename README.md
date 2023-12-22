@@ -102,13 +102,24 @@ https://favicon.io/favicon-converter/
 
 #### Features Left to Implement
 
-- As project's due date is today, 22.12.2023, and the site is still not completely ok on mobile view, there is still a lot to do. Media settings, to adjust Image label on Benefits page, tidy up table on the landing page. Due to unforseen circumstances I was not able to work on the project for some of the days. I understand that I'll have an opportunity in 2024 to adjust this project, once Code Institute says it's ok to edit again. 
+- To adjust Image label on Benefits page
+- make diclaimer popup
+- add frequency video under energy tools
+Due to unforseen circumstances I was not able to work on the project for some of the days, I made Student Care aware of this. I opted to submit project on the due date
+- Menu items to move to the right where is favicon
 
 
 ## Testing
 
 - Sign Up form requests @ sign 
 ![Alt text](<sign up form - email address.png>) 
+
+
+### Responsiveness
+
+- I used this website to check my page for responsiveness https://ui.dev/amiresponsive?url=https://barbykelly.github.io/Project-1/
+
+
 
 
 
@@ -120,8 +131,9 @@ https://favicon.io/favicon-converter/
 - CSS 
 - ![Alt text](<CSS Validation.png>)
 
+
 ### Unfixed Bugs
-- as project isn't complete, no testing for bugs done yet
+- 
 
 ## Deployment
 
@@ -134,19 +146,16 @@ https://github.com/BarbyKelly/Project-1.git
 - Initial code for this project came from Love Running - Essentials Project
 https://github.com/Code-Institute-Solutions/love-running-v3.git
 
+
 - Images
 
 All of the photos used on the site are taken by the author of this website
+
 
 - Favicon
 
 https://favicon.io/favicon-converter/
 I used this website to convert a photo taken by me, into a favicon. Original image Fenit Co. Kerry, Ireland 
-
-- Book Cover
-
-I saved image of Inna Segal's book from this amazon page:
-https://www.amazon.com/Secret-Language-Your-Body-Essential/dp/1582702608
 
 
 - YouTube videos. My understanding is that it is ok to share these videos on my page, as I show them as videos created by someone else who is experienced in the specific area

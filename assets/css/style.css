@@ -198,17 +198,18 @@ main {
         margin: 5px 0;
         }
 
-    .beachkerry {
-            height: 500px;
-            max-width: 100%;
-            position: relative;
-    }
-
     /* Reasons section */
  #reasons {
     width: 80%;
     margin: 30px 30px;
  }
+
+ #beachkerry {
+    height: 500px;
+    max-width: 100%;
+    position: relative;
+    padding-bottom: 20px;
+}
 
   /* Signup */
  #signup {
