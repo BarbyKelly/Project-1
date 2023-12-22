@@ -105,6 +105,7 @@ https://favicon.io/favicon-converter/
 - add frequency video under energy tools
 Due to unforseen circumstances I was not able to work on the project for some of the days, I made Student Care aware of this. I opted to submit project on the due date
 - Menu items to move to the right where is favicon
+- add a directory for readme
 
 
 ## Testing
@@ -120,18 +121,25 @@ Due to unforseen circumstances I was not able to work on the project for some of
 ![Alt text](responsiveness.png)
 
 
+## Wireframe
+
+- I used pen and paper for my first project.
+![Alt text](<wireframe paper.png>)
 
 ### Validator Testing
 
 - HTML 
-- 
+- https://validator.w3.org/nu/?doc=https%3A%2F%2Fbarbykelly.github.io%2FProject-1%2Fbenefits.html
+- ![Alt text](<html checker.png>)
 
 - CSS 
-- ![Alt text](<CSS Validation.png>)
+- https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbarbykelly.github.io%2FProject-1%2Fbenefits.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+- ![Alt text](<css validation.png>)
 
 
 ### Unfixed Bugs
-- 
+- ![Alt text](<benefits section not ok.png>)
+![Alt text](<html checker-2.png>)
 
 ## Deployment
 
