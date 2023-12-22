@@ -1,6 +1,6 @@
 # Energy Work
 
-This project's goal is to share different types of methods used for Energy Work, to show people how these methods can make a difference to our wellbeing. This page is suitable for people who are interested in using their own hands, colour, imagination, to work with their energy and maybe clear some energy blocks. Many of this page's author's friends and family have asked her for tips in regards to energy work, which tools to use. It's lovely to be able to gather some of her research on this page, and share the links instead of individual messages. And this way people can choose which method seems the best for them, instead of author sharing her "latest find". She has had interest and passion for natural healing, energy work from very young age. For the creator of this page, natural methods seemed always normal part of her life.
+This project's goal is to share different types of methods used for Energy Work, to show people how these methods can make a difference to wellbeing. This page is suitable for people who are interested in using their own colour, hands, movement or imagination, to work with their energy and maybe clear some energy blocks. Many of this page's author's friends and family have asked her for tips in regards to energy work, which tools to use. It's lovely to be able to gather some of her research on this page, and share the links instead of individual messages. And this way people can choose which method seems the best for them, instead of author sharing her "latest find". She has had interest and passion for natural healing, energy work from very young age. For the creator of this page, natural methods seemed always normal part of her life. There are many more methods/links to share that the creator of this page loves, like frequencies, TRE (Trauma Release Exercise) and many more.
 
 ![Responsive Mockup] place an image here
 
@@ -38,7 +38,7 @@ https://favicon.io/favicon-converter/
 
 - The landing page image is a photo of the Ballyheigue beach in county Kerry, captured by the creator of this page. This beach-side scenery brings hopefully a smile to the visitor's face, or feeling of light and tranquility
 
-![Alt text](<Landing page.png>)
+![Alt text](<Landing page project-1.png>)
 
 
 -_Disclaimer_
@@ -49,16 +49,14 @@ https://favicon.io/favicon-converter/
 
 -Author of this page has no medical background. Researching energy tools has been author's hobby for this lifetime.
 
-![Disclaimer] place an image here
+![Alt text](disclaimer.png)
 
 
--_Tools for Wellbeing Table_
+-_Energy Tools_
 
-- Content of this table is aimed to make it easy for the user to find the area they are interested in, and to click on the video link, or link to read part of the book mentioned on the table. Autoplay and full-screen option have been removed from the embed code, to support visitors who prefer to play videos at their own time, at their own terms. Embed code helps to see what these videos are about. 
+- This content is aimed to make it easy for the user to find the area they are interested in, and to click on the video link. Autoplay and full-screen option have been removed from the embed code, to support visitors who prefer to play videos at their own time. Embed code helps to see what these videos are about, instead of having just a title.
 
-- Table also includes samples of page creator's personal experiences while using all of these different energy tools
-
-![Tools for Wellbeing] place an image here
+![Alt text](<energy tools.png>)
 
 
 -_Social Media Links_
@@ -67,7 +65,7 @@ https://favicon.io/favicon-converter/
 
 -All social media links open in a new page, which leaves Energy Work page open, and visitor has an option to return to this page if they so wish to do
 
-![Social Media Links] place an image here
+![Alt text](<social media links.png>)
 
 
 -_Benefits Section Image_

@@ -166,6 +166,10 @@ main {
   padding-bottom: 20px;
   }
 
+  #energy-tools div {
+    padding-top: 15px;
+  }
+
   /* Benefits html */
 
   /* Benefits section */
@@ -194,7 +198,7 @@ main {
         margin: 5px 0;
         }
 
-        /* Reasons secti0n */
+    /* Reasons secti0n */
 
  /* Reasons section */
  #reasons {
