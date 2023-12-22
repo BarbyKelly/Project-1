@@ -86,8 +86,7 @@ https://favicon.io/favicon-converter/
 
 - add an image, then talk about it. 
 
-![Benefits section image] place an image here
-
+![Alt text](<benefits page.png>)
 
 -_Sign Up_
 
@@ -102,7 +101,7 @@ https://favicon.io/favicon-converter/
 
 #### Features Left to Implement
 
-- make diclaimer popup
+- make disclaimer popup
 - add frequency video under energy tools
 Due to unforseen circumstances I was not able to work on the project for some of the days, I made Student Care aware of this. I opted to submit project on the due date
 - Menu items to move to the right where is favicon
@@ -118,7 +117,7 @@ Due to unforseen circumstances I was not able to work on the project for some of
 
 - I used this website to check my page for responsiveness https://ui.dev/amiresponsive?url=https://barbykelly.github.io/Project-1/
 
-
+![Alt text](responsiveness.png)
 
 
 
