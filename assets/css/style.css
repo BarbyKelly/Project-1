@@ -108,7 +108,7 @@ nav {
     transition: border-bottom 0.3s ease-in-out;
 }
 
-#menu a: hover {
+#menu a:hover {
     border-bottom: 2px solid #e9e7f0;
 }
 
@@ -169,7 +169,7 @@ main {
   }
 
   #energy-tools tr {
-    padding: auto;
+    padding: 20px 20px 20px;
   }
 
   .energy-tools p {
@@ -216,7 +216,7 @@ main {
 
   /* Signup */
  #signup {
-    max-width: auto;
+    width: auto;
     margin: auto;
     }
 
@@ -299,7 +299,7 @@ footer {
     }
 
     .footer {
-        width; fit-content;
+        width: auto;
     }
 }
 
@@ -312,7 +312,7 @@ footer {
 
 /* Desktop styles */
 @media screen and (min-width: 992px) {
-    #menu a: hover {
+    #menu a:hover {
         border-bottom: 0.5px solid #333333;
     }
 }
