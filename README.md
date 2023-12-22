@@ -102,7 +102,6 @@ https://favicon.io/favicon-converter/
 
 #### Features Left to Implement
 
-- To adjust Image label on Benefits page
 - make diclaimer popup
 - add frequency video under energy tools
 Due to unforseen circumstances I was not able to work on the project for some of the days, I made Student Care aware of this. I opted to submit project on the due date
