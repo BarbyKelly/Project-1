@@ -141,6 +141,10 @@ Due to unforseen circumstances I was not able to work on the project for some of
 - ![Alt text](<benefits section not ok.png>)
 ![Alt text](<html checker-2.png>)
 
+### Lighthouse test
+
+- ![Alt text](<lighthouse test.png>)
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The live link can be accessed here:
