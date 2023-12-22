@@ -190,17 +190,21 @@ main {
     }
     
    #benefits p  {
-        padding: 0 20px;
-        }
+        padding-top: 10px;
+   }
     
     #benefits hr {
         border-top: 1px solid #333333;
         margin: 5px 0;
         }
 
-    /* Reasons secti0n */
+    .beachkerry {
+            height: 500px;
+            max-width: 100%;
+            position: relative;
+    }
 
- /* Reasons section */
+    /* Reasons section */
  #reasons {
     width: 80%;
     margin: 30px 30px;
