@@ -117,10 +117,10 @@ https://favicon.io/favicon-converter/
 ### Validator Testing
 
 - HTML 
-- as project isn't complete, no testing done yet
+- 
 
 - CSS 
-- as project isn't complete, no testing done yet
+- ![Alt text](<CSS Validation.png>)
 
 ### Unfixed Bugs
 - as project isn't complete, no testing for bugs done yet
