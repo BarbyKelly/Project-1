@@ -1,3 +1,6 @@
+#FYI due to unseen circumstances, which Student Care is aware of, this project is not up to the standard that I was aiming for. I have decided to submit this project as it is. 
+
+
 # Energy Work
 
 This project's goal is to share different types of methods used for Energy Work, to show people how these methods can make a difference to our wellbeing. This page is suitable for people who are interested in using their own hands, colour, imagination, to work with their energy and maybe clear some energy blocks. Many of this page's author's friends and family have asked her for tips in regards to energy work, which tools to use. It's lovely to be able to gather some of her research on this page, and share the links instead of individual messages. And this way people can choose which method seems the best for them, instead of author sharing her "latest find". She has had interest and passion for natural healing, energy work from very young age. For the creator of this page, natural methods seemed always normal part of her life.
@@ -34,7 +37,7 @@ https://favicon.io/favicon-converter/
 
 - The landing page image is a photo of the Ballyheigue beach in county Kerry, captured by the creator of this page. This beach-side scenery brings hopefully a smile to the visitor's face, or feeling of light and tranquility
 
-![Landing Page] place an image here
+![Alt text](<Landing page.png>)
 
 -_Disclaimer_
 
@@ -119,13 +122,18 @@ https://favicon.io/favicon-converter/
 
 ## Deployment
 
-- The site was deployed to Github pages throughout working on the project
+- The site was deployed to GitHub pages. The live link can be accessed here:
+https://github.com/BarbyKelly/Project-1.git
+
 
 ## Credits
 
+- Initial code for this project came from Love Running - Essentials Project
+https://github.com/Code-Institute-Solutions/love-running-v3.git
+
 - Images
 
-All of the photos used on the site are taken by me
+All of the photos used on the site are taken by the author of this website
 
 - Favicon
 
@@ -180,9 +188,9 @@ I removed autoplay, deleted full-screen option, reduced size to fit the table, a
     font-size: 2rem;
 }
 
-- - Typed exactly like in Love Running, as my nav bar stopped working after rearranging my pages, I wanted to ensure project is ok for testing, screenshots. Unfortunately still not ok for testing.
+- - Typed exactly like in Love Running
 
- #menu {
+    #menu {
         display: flex;
     }
 
@@ -237,7 +245,11 @@ iframe video images embed code looked too big for this website. I changed height
 ![Alt text](<display label none, menu also gone .png>)
 ![Alt text](<signup label fixed, menu back, .signup.png>)
 
+#### Acknowledgements
 
+- This part was inspired by Leonie's Readme https://github.com/leoniemclaughlin7/Vincent-Van-Gogh#vincent-van-gogh 
+
+- I would love to thank everyone who guided and supported me during this project. It's a long list of people, as I am a beginner in coding. My kids will be delighted to hear that I have submitted my first project, and can relax for one evening. Special thanks goes to Mehatab, who told me about Code Institute's Free Five Day Coding Challenge, when I was looking for an IT course, and who supported me through the Coding Challenge, and this project, while doing her own projects. Thank you.  
 
 
 
