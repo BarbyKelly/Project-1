@@ -1,6 +1,3 @@
-#FYI due to unseen circumstances, which Student Care is aware of, this project is not up to the standard that I was aiming for. I have decided to submit this project as it is. 
-
-
 # Energy Work
 
 This project's goal is to share different types of methods used for Energy Work, to show people how these methods can make a difference to our wellbeing. This page is suitable for people who are interested in using their own hands, colour, imagination, to work with their energy and maybe clear some energy blocks. Many of this page's author's friends and family have asked her for tips in regards to energy work, which tools to use. It's lovely to be able to gather some of her research on this page, and share the links instead of individual messages. And this way people can choose which method seems the best for them, instead of author sharing her "latest find". She has had interest and passion for natural healing, energy work from very young age. For the creator of this page, natural methods seemed always normal part of her life.
@@ -97,7 +94,7 @@ https://favicon.io/favicon-converter/
 
 #### Features Left to Implement
 
-- As deadline is tomorrow, and the site is still not ok on mobile view, there is a lot still to do. Media settings, to adjust image on Benefits page, Title box size on signup page
+- As project's due date is today, 22.12.2023, and the site is still not completely ok on mobile view, there is still a lot to do. Media settings, to adjust Image label on Benefits page, tidy up table on the landing page. Due to unforseen circumstances I was not able to work on the project for some of the days. I understand that I'll have an opportunity in 2024 to adjust this project, once Code Institute says it's ok to edit again. 
 
 ## Testing
 
@@ -206,6 +203,53 @@ I removed autoplay, deleted full-screen option, reduced size to fit the table, a
 https://mycolor.space/gradient3?ori=to+right+top&hex=%23847F54&hex2=%23A39A69&hex3=%23333333&submit=submit
 ![Alt text](<mycolor space-1.png>)
 
+- - Media query code mainly from Mehatab
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 1rem;
+    }
+
+    #logo {
+        font-size: 150%;
+    }
+
+    nav {
+        padding: 0.5rem;
+    }
+
+    #menu > li {
+        margin-bottom: 1.5em;
+    }
+
+    main {
+        margin-top: 60px;
+    }
+
+    .beachkerry {
+        width: auto;
+    }
+
+    .footer {
+        width; fit-content;
+    }
+}
+
+/* Tablet styles */
+@media screen and (width <= 768px) {
+    #menu > li {
+        margin-bottom: 2em;
+    }   
+}
+
+/* Desktop styles */
+@media screen and (min-width: 992px) {
+    #menu a: hover {
+        border-bottom: 0.5px solid #333333;
+    }
+}
+
 - - https://fontawesome.com/icons 
 
 Font Awesome icons used for Menu, Benefits page, Sign Up page, Facebook, YouTube, Instagram
@@ -249,7 +293,7 @@ iframe video images embed code looked too big for this website. I changed height
 
 - This part was inspired by Leonie's Readme https://github.com/leoniemclaughlin7/Vincent-Van-Gogh#vincent-van-gogh 
 
-- I would love to thank everyone who guided and supported me during this project. It's a long list of people, as I am a beginner in coding. My kids will be delighted to hear that I have submitted my first project, and can relax for one evening. Special thanks goes to Mehatab, who told me about Code Institute's Free Five Day Coding Challenge, when I was looking for an IT course, and who supported me through the Coding Challenge, and this project, while doing her own projects. Thank you.  
+- I would love to thank everyone who guided and supported me during this project. It's a long list of people, as I am a beginner in coding. Special thanks goes to Mehatab, who told me about Code Institute's Free Five Day Coding Challenge, when I was looking for an IT course, and who supported me through the Coding Challenge, and this project, while doing her own projects. Thank you. 
 
 
 
