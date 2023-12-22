@@ -153,9 +153,9 @@ main {
 }
 
  /* Energy Tools Section */
- #energy-tools {
+ .energy-tools {
     border-color: #333333;  
-    padding-top: auto;
+    padding-top: 50px;
     text-align: center;
     border: none
   }
@@ -221,20 +221,20 @@ main {
     }
 
     h2 {
-        font-size: 24px;
-        margin-bottom: 20px;
+        font-size: 20px;
+        margin-bottom: 15px;
     }
 
     .signup label {
         display: none;
-        margin-bottom: 8px;
+        margin-bottom: 15px;
     }
 
 select, input.text-input {
     width: 100%;
     padding: 10px;
     margin-bottom: 16px;
-    border: 1px solid #333333;
+    border: 2px solid #333333;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -242,11 +242,11 @@ select, input.text-input {
 button.signup-button {
     background-color: #a39a69;
     padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+    border-color: #333333;
+    border-radius: 3px;
     cursor: pointer;
-    font-size: 16px;
-}
+    font-size: 14px;
+    }
 
 button.signup-button:hover {
     background-color: #847f54;

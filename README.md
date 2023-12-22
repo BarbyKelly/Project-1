@@ -6,30 +6,29 @@ This project's goal is to share different types of methods used for Energy Work,
 
 ## Features
 
-Home page shares energy tools how to shift your own energy. Sharing my own experiences of trying many different methods
-to improve my own and my family's wellbeing. On this page visitor can click on links to access Youtube videos, read an example of an ebook, click on a link to learn about Tapping EFT. 
+Home page shares energy tools how to start to work or sense your own energy. On this page visitor can click on links to access Youtube videos, find a link that brings visitor to another page to read an example of an ebook (how to understand your body and some symptoms), or click on a link to learn about Tapping EFT. 
 This page includes an image taken by me, Ballyheigue County Kerry. I feel good and peaceful looking at this image, and I hope visitors of this site have a pleasant feeling looking at the image, and that they can find links useful.
 
-The goal here is to share the possible benefits from working with your own energy. It is understandable that each person has their own unique experience, and examples given under Benefits section are some of the changes that the author of this page has noticed.
+Benefits page: the goal here is to share the possible benefits from working with your own energy. It is understandable that each person has their own unique experiences, and examples given under Benefits section are some of the changes that the author of this page has noticed.
 
-Sign up page is created for the project to show that form works. At the moment sign ups won't be saved anywhere, as it's just a mock page.
-Originally I wanted it to be a form where people vote which part of the page they liked the most. My mentor recommended to use a form where
-people share their own experience
+Sign up page is created for the project to show that form works. At the moment sign ups won't be saved anywhere, as it's just for the purpose of this project
 
 ### Existing Features
 
 -_Favicon_
 
-- An original image, Fenit county Kerry beach photo taken by author of this page, was converted with Favicon into a suitable Favicon
+- An original image, Fenit county Kerry beach photo taken by author of this page, was converted with Favicon into a suitable Favicon for this website
 
-![Favicon] place an image here
+https://favicon.io/favicon-converter/
+
+![Alt text](favicon_io/favicon.ico)
 
 -_Navigation Bar_
 
 - Featured on all three pages. The full responsive navigation bar includes links to the Home page, Benefits and Sign Up page, and it is same in each page to allow for easy navigation. 
 - Navigation bar allows user to navigate from page to page, across different kind of devices, without having to return to the previous page or Home page first
 
-![Nav Bar] place an image here
+![Alt text](<Navigation bar.png>)
 
 -_The landing page image_
 
@@ -201,12 +200,36 @@ https://mycolor.space/gradient3?ori=to+right+top&hex=%23847F54&hex2=%23A39A69&he
 
 - - https://fontawesome.com/icons 
 
-Font Awesome icons used for Sign Up page (sun), 
+Font Awesome icons used for Menu, Benefits page, Sign Up page, Facebook, YouTube, Instagram
+![Alt text](favicons.png)
+
+nav-toggle-bar favicon <i class="fa-solid fa-ellipsis-vertical"></i>
+Facebook favicon <i class="fa-brands fa-facebook"></i>
+YouTube favicon <i class="fa-brands fa-youtube"></i>
+Instagram favicon <i class="fa-brands fa-instagram"></i>
+Rainbow favicon <i class="fa-solid fa-rainbow"></i>
+Heart favicon <i class="fa-solid fa-heart"></i>
+Star favicon <i class="fa-solid fa-star"></i>
+Sun favicon <i class="fa-solid fa-sun"></i>
+
+- -  Favicon 3 links below, code copied from Love Running
+     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+- - #signup-form code copied from Mehatab (Software Development student), and I modified some parts of it to suit my page. Diff checker 
+https://www.diffchecker.com/text-compare/
+screenshot to show the differences. Mehatab's code is on the left: /* Signup-form */, my code is on the right: /* Signup */
+
+![Alt text](<diff checker signup 1.png>)
+![Alt text](<diff checker signup 2.png>)
+ 
+
 
 ## Issues Fixed
 
 - Embed code - video size
-iframe video images embed code: too big. I changed height and width of these, reduced them all to one size. 
+iframe video images embed code looked too big for this website. I changed height and width of these, reduced them all to one size. 
 
 - Signup form labels needed to be displayed:none, as placeholders were enough. Changing display to none for the signup label, caused menu dots not display as well on the header. Working tree helped to see what change could have caused menu to not display. Adding .signup to the label, and setting display: none, helped to not have labels display for signup form, and keep the menu dots
 ![Alt text](<goal remove sign up labels.png>)
