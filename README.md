@@ -1,3 +1,12 @@
+⚠️ **Project Status Note**
+
+This is the 1st of 5 projects, completed and assessed as part of my Diploma in Full Stack Software Development course with Code Institute.
+At the time of submission, all required features and links were functional to the best of my knowledge.
+
+Some external links or deployments may no longer work as originally intended due to platform or service changes.
+The source code and README are preserved, except for this 'Project Status Note'.
+
+
 # Energy Work
 
 This project's goal is to share different types of methods used for Energy Work, to show people how these methods can make a difference to wellbeing. This page is suitable for people who are interested in using their own colour, hands, movement or imagination, to work with their energy and maybe clear some energy blocks. Many of this page's author's friends and family have asked her for tips in regards to energy work, which tools to use. It's lovely to be able to gather some of her research on this page, and share the links instead of individual messages. And this way people can choose which method seems the best for them, instead of author sharing her "latest find". She has had interest and passion for natural healing, energy work from very young age. For the creator of this page, natural methods seemed always normal part of her life. There are many more methods/links to share that the creator of this page loves, like frequencies, TRE (Trauma Release Exercise) and many more.
